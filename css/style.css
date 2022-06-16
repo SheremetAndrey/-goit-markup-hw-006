@@ -429,14 +429,14 @@ backdrop {
   padding-right: 16px;
   transition: border-color var(--transition-timing) var(--transition-function);
 }
-.input-box:hover,
-.input-box:focus {
+.box-input:hover,
+.box-input:focus {
   border-color: #2196f3;
 }
 .modal-js:hover,
 .modal-js:focus,
-.input-box-coment:focus,
-.input-box:focus {
+.box-input-coment:focus,
+.box-input:focus {
   color: #2196f3;
   outline-color: #2196f3;
   border: none;
