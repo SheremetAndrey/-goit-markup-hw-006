@@ -1059,9 +1059,9 @@ img {
 .product {
   background: #ffffff;
   overflow: hidden;
+  position: relative;
 }
 .product-thumb {
-  position: relative;
 }
 
 .product-overlay {
