@@ -78,6 +78,7 @@
           <button class="main-button" type="button" data-modal-open>
             Заказать услугу
           </button>
+          <!--  МОДАЛКА    -->
           <div class="backdrop is-hidden" data-modal>
             <div class="modal">
               <button class="close-btn" data-modal-close>
@@ -93,7 +94,6 @@
               <form class="form-js">
                 <div class="modal-js">
                   <label for="name">Имя</label>
-
                   <input class="box-input" type="text" name="name" id="name" />
                   <svg class="modal-icon">
                     <use href="./images/icons.svg/modal.svg#black-man"></use>
@@ -111,12 +111,7 @@
                   <svg class="modal-icon">
                     <use href="./images/icons.svg/modal.svg#black-email"></use>
                   </svg>
-                  <input
-                    class="box-input"
-                    type="text"
-                    name="mail"
-                    id="box-input"
-                  />
+                  <input class="box-input" type="text" id="box-input" />
                 </div>
                 <div class="modal-js">
                   <label for="box-input-coment">Коментарий</label>
@@ -125,15 +120,11 @@
                     name="coment"
                     id="box-input-coment"
                     placeholder="Введите текст"
-                    rows="10"
                   ></textarea>
                 </div>
                 <div class="modal-js">
                   <label class="checkbox__label">
-                    <input
-                      class="checkbox__input visualitty-hidden"
-                      type="checkbox"
-                    />
+                    <input class="checkbox visualitty-hidden" type="checkbox" />
                     <span class="custom-checkbox">
                       <svg class="custom-checkbox-icon">
                         <use
@@ -153,6 +144,7 @@
               </form>
             </div>
           </div>
+          <!--========================-->
         </div>
       </section>
 
